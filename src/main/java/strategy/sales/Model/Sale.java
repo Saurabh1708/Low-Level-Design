@@ -1,4 +1,4 @@
-package org.sales.Model;
+package strategy.sales.Model;
 
 public class Sale {
 

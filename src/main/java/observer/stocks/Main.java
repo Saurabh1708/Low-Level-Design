@@ -5,6 +5,7 @@ public class Main {
         StockMarket stockMarket = new StockMarket();
         PriceDisplay priceDisplay = new PriceDisplay();
         stockMarket.addObserver(priceDisplay);
+
         Stock hul=new Stock(100.0,"HUL","HINDUSTAN UNILELVER");
         Stock mrf=new Stock(200.0,"MRF","MRF");
         Stock nstl = new Stock(300.0,"NSTL","NESTLE");
@@ -19,6 +20,12 @@ public class Main {
 
         stockMarket.updateStockPrice(nstl,150.0);
         stockMarket.updateStockPrice(hul,250.0);
+        stockMarket.updateStockPrice(nstl,96.0);
+        stockMarket.updateStockPrice(hul,199.0);
+
+        System.out.println(hul.getPrice());
+        System.out.println(mrf.getPrice());
+        System.out.println(nstl.getPrice());
 
     }
 }

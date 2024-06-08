@@ -1,10 +1,10 @@
-package org.sales;
+package strategy.sales;
 
-import org.sales.Model.*;
-import org.sales.discount_strategy.FiftyPercentOffDiscountStrategy;
-import org.sales.discount_strategy.VariableDiscountStrategy;
-import org.sales.sales.BlackFridaySale;
-import org.sales.sales.PrimeDaySale;
+import strategy.sales.discount_strategy.FiftyPercentOffDiscountStrategy;
+import strategy.sales.discount_strategy.VariableDiscountStrategy;
+import strategy.sales.sales.BlackFridaySale;
+import strategy.sales.sales.PrimeDaySale;
+import strategy.sales.Model.Product;
 
 public class Main {
     public static void main(String[] args) {
