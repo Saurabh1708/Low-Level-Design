@@ -1,7 +1,7 @@
-package org.example.sales;
+package org.sales.sales;
 
-import org.example.Model.IDiscountStrategy;
-import org.example.Model.Sale;
+import org.sales.Model.IDiscountStrategy;
+import org.sales.Model.Sale;
 
 public class BlackFridaySale extends Sale {
     public BlackFridaySale(IDiscountStrategy discountStrategy){

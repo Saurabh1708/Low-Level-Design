@@ -1,7 +1,7 @@
-package org.example.discount_strategy;
+package org.sales.discount_strategy;
 
-import org.example.Model.IDiscountStrategy;
-import org.example.Model.Product;
+import org.sales.Model.IDiscountStrategy;
+import org.sales.Model.Product;
 
 import java.util.ArrayList;
 

@@ -1,7 +1,7 @@
-package org.example.sales;
+package org.sales.sales;
 
-import org.example.Model.IDiscountStrategy;
-import org.example.Model.Sale;
+import org.sales.Model.IDiscountStrategy;
+import org.sales.Model.Sale;
 
 public class PrimeDaySale extends Sale {
     public PrimeDaySale(IDiscountStrategy discountStrategy){

@@ -1,4 +1,4 @@
-package org.example.Model;
+package org.sales.Model;
 
 public class Product {
     private String productName;
